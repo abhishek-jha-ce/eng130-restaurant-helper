@@ -50,6 +50,8 @@ Enter the No. of the item you want: 8
 Enter the No. of the item you want: 4
 Enter the No. of the item you want: 2
 ['Sushi', 'Biryani', 'Fish and Chips']
+
+Note: If the user doesn't enter a number, that particular order is ignored.
 ```
 
 ### Displaying the order back to the customer
