@@ -14,3 +14,14 @@ print("Select an item from the list:")
 for i in range(len(item_list)):
     print(i + 1, ".", item_list[i])
 
+# Taking user order
+item_order = 0 # Keep track of user order
+
+while item_order < 3:
+    order_item = input("Enter the No. of the item you want: ")
+    if order_item.isdigit():
+        order_list.insert(item_list[int(order_item)])
+    item_order += 1
+
+print(order_list)
+
