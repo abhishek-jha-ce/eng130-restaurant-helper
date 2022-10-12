@@ -33,3 +33,24 @@ Select an item from the list:
 8 . Noodles
 9 . Sushi
 ```
+
+### Getting the order from the user:
+
+```commandline
+
+# Taking user order
+item_order = 0 # Keep track of user order
+
+while item_order < 3:
+    order_item = input("Enter the No. of the item you want: ")
+    if order_item.isdigit():
+        order_list.append(item_list[int(order_item)])
+    item_order += 1
+
+Output:
+Enter the No. of the item you want: 8
+Enter the No. of the item you want: 4
+Enter the No. of the item you want: 2
+['Sushi', 'Biryani', 'Fish and Chips']
+```
+
