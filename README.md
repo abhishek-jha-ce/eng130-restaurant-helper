@@ -37,8 +37,6 @@ Select an item from the list:
 ### Getting the order from the user:
 
 ```commandline
-
-# Taking user order
 item_order = 0 # Keep track of user order
 
 while item_order < 3:
@@ -54,3 +52,14 @@ Enter the No. of the item you want: 2
 ['Sushi', 'Biryani', 'Fish and Chips']
 ```
 
+### Displaying the order back to the customer
+```commandline
+print("Ordered Items:")
+for i in range(len(order_list)):
+    print(i + 1, ".", order_list[i])
+
+Ordered Items:
+1 . Biryani
+2 . Enchiladas
+3 . Fish and Chips
+```

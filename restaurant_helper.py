@@ -23,5 +23,10 @@ while item_order < 3:
         order_list.append(item_list[int(order_item)])
     item_order += 1
 
-print(order_list)
+
+print("Ordered Items:")
+for i in range(len(order_list)):
+    print(i + 1, ".", order_list[i])
+
+#print(order_list)
 
